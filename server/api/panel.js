@@ -62,7 +62,7 @@ router.put('/section', async (req, res) => {
     if (!result.modifiedCount) throw new driver.mongodb.MongoError('No document found')
 
     res.json({
-      panel: req.body._id,
+      panelId: req.body._id,
       modifiedSection: payload
     });
   } catch (err) {
