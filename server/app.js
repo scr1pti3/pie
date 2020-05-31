@@ -12,6 +12,7 @@ const distPath = path.resolve(__dirname, '..', 'client', 'dist');
 
 mongodb.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true}, err => {
   if (err) throw err
+  
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
 
