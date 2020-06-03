@@ -1,0 +1,29 @@
+$textColor: #F5F5F9;
+
+#side_tab {
+  background-color: #141923;
+  #home {
+    padding: 35px 15px;
+    color: $textColor;
+  }
+
+  .tablinks {
+    color: $textColor;
+    padding: 0 15px;
+    .tablinks-name {
+      color: $textColor;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .tablinks-content {
+      a {
+        display: block;
+      }
+    }
+
+  }
+
+}

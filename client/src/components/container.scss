@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  height: 100vh;
+
+  #side_tab {
+    flex: 20%;
+    height: 100%;
+  }
+  #tab_content {
+    flex: 80%;
+    height: 100%;
+  }
+}

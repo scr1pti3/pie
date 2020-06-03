@@ -12,10 +12,16 @@
   "author": "Raznan",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
     "express": "^4.17.1",
     "mongodb": "^3.5.8",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-grid-layout": "^0.18.3",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
@@ -29,6 +35,8 @@
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "nodemon": "^2.0.4",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",

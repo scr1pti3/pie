@@ -57,7 +57,7 @@ const __module = {
             loader: 'html-loader'
         },
         {
-            test: /\.css$/,
+            test: /\.s?[ac]ss$/i,
             use: [
                 {
                     loader: MiniCssExtractPlugin.loader,
@@ -65,7 +65,8 @@ const __module = {
                         esModule: true,
                     }
                 },
-                'css-loader'
+                'css-loader',
+                'sass-loader'
             ]
         },
         {
